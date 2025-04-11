@@ -6,10 +6,13 @@ package org.example
 class App {
     val greeting: String
         get() {
-            return "Hola mundazo!"
+            
+            return "Hola Mundo !"
         }
 }
 
 fun main() {
     println(App().greeting)
+    val nombre: String = "Facucu"
+    println("Hola $nombre")
 }
